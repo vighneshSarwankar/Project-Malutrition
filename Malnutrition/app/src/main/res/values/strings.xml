@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Malnutrition</string>
+    <string name="btn_save">SAVE</string>
+    <string name="btn_reset">RESET</string>
+    <string name="radiomale">Male</string>
+    <string name="radiofemale">Female</string>
+    <string name="text_gender">Gender</string>
+    <string name="text_age">Age</string>
+    <string name="text_name">Name</string>
+    <string name="text_id">ID</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="CALCULATE HEIGHT"
+        android:id="@+id/buttoncalh"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="HEAD CIRCUMFERENCE"
+        android:id="@+id/buttonheadcir"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="CHEST CIRCUMFERENCE"
+        android:id="@+id/buttonchestcir"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="WEIGHT TO HEIGHT"
+        android:id="@+id/buttonwtht"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="WEIGHT TO AGE"
+        android:id="@+id/buttonwtage"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="HEIGHT TO AGE"
+        android:id="@+id/buttonhtage"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="WEIGHT-HEIGHT TO HEAD"
+        android:id="@+id/buttonwthtage"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="GROWTH CHART"
+        android:id="@+id/buttongc"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

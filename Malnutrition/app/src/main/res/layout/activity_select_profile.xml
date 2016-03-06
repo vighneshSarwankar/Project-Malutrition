@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vighnesh.detect_malnutrition.SelectProfile">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Select Profile"
+        android:id="@+id/textView"
+        android:layout_marginTop="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:phoneNumber="true"
+        android:textColor="#b3ea1c"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Profile"
+        android:id="@+id/new_profile_button"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="104dp"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:onClick="callProfile"
+        android:textColor="#3866b4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exisiting"
+        android:id="@+id/exist_profile"
+        android:layout_marginTop="99dp"
+        android:layout_below="@+id/new_profile_button"
+        android:layout_alignLeft="@+id/new_profile_button"
+        android:layout_alignStart="@+id/new_profile_button"
+        android:layout_alignRight="@+id/new_profile_button"
+        android:layout_alignEnd="@+id/new_profile_button"
+        android:textColor="#3f69c3"
+        android:onClick="callExisting" />
+
+</RelativeLayout>
